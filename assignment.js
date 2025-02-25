@@ -34,7 +34,7 @@ console.log("Remaining lives after penalty:", remainingLives); //DO NOT MODIFY T
 var dailyEarnings = 6;
 
 // Multiply the variable "dailyEarnings" by 3 and update its value in one step
-dailyEarnings;
+dailyEarnings = 3;
 console.log("Daily earnings after tripling:", dailyEarnings); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -52,7 +52,7 @@ console.log("Average distance per day:", totalDistance); //DO NOT MODIFY THIS LI
 var cookiesRemaining = 18;
 
 // Apply modulus 4 to the variable "cookiesRemaining" and update its value in one step
-cookiesRemaining;
+cookiesRemaining % = 4;
 console.log("Cookies remaining after distribution:", cookiesRemaining); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -61,7 +61,7 @@ console.log("Cookies remaining after distribution:", cookiesRemaining); //DO NOT
 var baseNumber = 7;
 
 // Raise the variable "baseNumber" to the power of 2 and update its value in one step
-baseNumber;
+baseNumber **= 2;
 console.log("Base number after exponentiation:", baseNumber); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -70,7 +70,7 @@ console.log("Base number after exponentiation:", baseNumber); //DO NOT MODIFY TH
 var shiftedValueLeft = 3; // 3 in binary is 0011
 
 // Shift the bits of variable "shiftedValueLeft" to the left by 2 places and update its value in one step
-shiftedValueLeft;
+shiftedValueLeft <<= 2;
 console.log("Value after left shift by 2 bits:", shiftedValueLeft); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -79,7 +79,7 @@ console.log("Value after left shift by 2 bits:", shiftedValueLeft); //DO NOT MOD
 var shiftedValueRight = 15; // 15 in binary is 1111
 
 // Shift the bits of variable "shiftedValueRight" to the right by 1 place and update its value in one step
-shiftedValueRight;
+shiftedValueRight >>=1;
 console.log("Value after right shift by 1 bit:", shiftedValueRight); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -88,7 +88,7 @@ console.log("Value after right shift by 1 bit:", shiftedValueRight); //DO NOT MO
 var unsignedShiftRight = 15; // 15 in binary is 1111
 
 // Shift the bits of variable "unsignedShiftRight" to the right by 2 places, filling the new bits with zeros, and update its value in one step
-unsignedShiftRight;
+unsignedShiftRight >>>= 2;
 console.log("Value after unsigned right shift by 2 bits:", unsignedShiftRight); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -97,7 +97,7 @@ console.log("Value after unsigned right shift by 2 bits:", unsignedShiftRight); 
 var andResult = 14; // 14 in binary is 1110
 
 // Perform a bitwise AND between variable "andResult" and the number 5, and update its value in one step
-andResult; // 5 in binary is 0101
+andResult &&= 5; // 5 in binary is 0101
 console.log("Result after bitwise AND with 5:", andResult); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -106,7 +106,7 @@ console.log("Result after bitwise AND with 5:", andResult); //DO NOT MODIFY THIS
 var xorResult = 12; // 12 in binary is 1100
 
 // Perform a bitwise XOR between variable "xorResult" and the number 3, and update its value in one step
-xorResult; // 3 in binary is 0011
+xorResult ^= 3; // 3 in binary is 0011
 console.log("Result after bitwise XOR with 3:", xorResult); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
@@ -115,5 +115,5 @@ console.log("Result after bitwise XOR with 3:", xorResult); //DO NOT MODIFY THIS
 var orResult = 8; // 8 in binary is 1000
 
 // Perform a bitwise OR between variable "orResult" and the number 2, and update its value in one step
-orResult; // 2 in binary is 0010
+orResult |= 2; // 2 in binary is 0010
 console.log("Result after bitwise OR with 2:", orResult); //DO NOT MODIFY THIS LINE
