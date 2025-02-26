@@ -52,7 +52,7 @@ console.log("Average distance per day:", totalDistance); //DO NOT MODIFY THIS LI
 var cookiesRemaining = 18;
 
 // Apply modulus 4 to the variable "cookiesRemaining" and update its value in one step
-cookiesRemaining % = 4;
+cookiesRemaining %= 4;
 console.log("Cookies remaining after distribution:", cookiesRemaining); //DO NOT MODIFY THIS LINE
 
 //========================================================================================
